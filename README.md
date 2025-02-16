@@ -56,8 +56,5 @@ bot wallet:
 `https://solscan.io/tx/5MEM9YmL8BGboq2eEdNLqnhbMKwWQ8cZKF6zcRonBuL42bkZi8RHBmftdk61APMZecN3T9MAJoFZVjaDM9AWcvCp`
 
 # 👤 Author
-### Telegram: [Vladmeer](https://t.me/vladmeer67)   
-https://t.me/vladmeer67
-
-### Twitter: [Vladmeer](https://x.com/vladmeer67)   
-https://x.com/vladmeer67
+### Telegram: [Vladmeer](https://t.me/dogewhiz)   
+https://t.me/dogewhiz
