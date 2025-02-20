@@ -1,60 +1,76 @@
-## Copy trading bot
+# Solana Copy Trading Bot 🚀
 
-A copy trading bot on Solana automatically tracks and mimics the trades of a specific trader's wallet. It monitors the trader's transactions (like buying or selling tokens) and automatically executes the same actions in your wallet in real-time. The bot allows you to follow experienced traders without manually managing trades, copying their buys and sells on the Solana blockchain.
+Automate your trading strategy by mimicking top traders' moves in real-time! This Solana-based **Copy Trading Bot** tracks and replicates the trades of experienced traders, allowing you to follow their buys and sells on the Solana blockchain
 
-This bot offers comprehensive integration with all decentralized exchanges (DEXs) across the Solana ecosystem. This universal compatibility ensures maximum flexibility and optimal trading opportunities for our users.
+### Key Highlights:
+- **Track & Copy Trades:** Automatically mimic the trades of a specific wallet in real-time.
+- **Support for All Solana DEXs:** Full integration with major decentralized exchanges (DEXs) on the Solana ecosystem.
+- **Smart Trade Execution:** Automatically execute trades on the best available pools with reduced slippage and optimized pricing.
 
-### Supported Trading Infrastructure:
+### 🚀 Supported Trading Infrastructure
 
-- Full integration with major Solana-based DEXs including Raydium, Orca, Jupiter Aggregator, and other prominent exchanges
-- Seamless access to the entire Solana DEX liquidity landscape
-- Real-time connectivity to all emerging and established trading pools
+- **Full DEX Integration:** Includes Raydium, Orca, Jupiter Aggregator, and more Solana DEXs.
+- **Deep Liquidity Pools:** Access the deepest liquidity across Solana's decentralized exchanges for the best prices.
+- **Real-Time Trading:** Take advantage of high-speed, real-time trade execution.
 
-### Key Benefits:
+### 💡 Key Features
 
-- Access to the deepest liquidity pools on Solana
-- Best possible trade execution through cross-DEX routing
-- Ability to capitalize on arbitrage opportunities across multiple DEXs
-- Reduced slippage through smart order routing
-- Automatic price optimization across all supported exchanges
+- **Track Token Swaps:** The bot continuously monitors the Solana network, ensuring you’re always aware of the best token swap opportunities.
+- **Cross-DEX Trading:** Seamlessly swap tokens on any supported DEX.
+- **Automatic Trading:** Let the bot handle buying and selling based on your customized strategy—no need to lift a finger.
+- **Custom Trading Strategies:** Tailor your approach to fit your risk tolerance and trading goals.
+- **Multi-Wallet Support:** Manage multiple wallets and execute trades simultaneously on each one.
 
-This extensive DEX support empowers traders to execute strategies efficiently while accessing the full depth of Solana's decentralized trading ecosystem.
+### 📈 Performance Optimization
 
-### Bot Features
+The bot has undergone extensive performance testing, and while it performs well, there’s room for optimization to meet professional trading standards. Currently, response times are slightly slower than industry-leading systems that use high-performance RPC and gRPC implementations.
 
-- Track Token Swaps: Continuously monitors every token swap on the Solana network to identify the best opportunities.
-- Trade Across Multiple DEXs: Swap tokens on any supported decentralized exchange according to your preferences.
-- Automatic Trades: Let the bot automatically buy and sell based on your customized strategy, so you don’t have to lift a finger.
-- Customizable Trading Strategy: Tailor your own trading approach to fit your risk tolerance and goals. 
-- Multi-Wallet Support: Set up and manage multiple wallets, executing trades on each at the same time. 
+**Optimization Suggestions:**
+- Upgrade RPC/gRPC services to reduce latency.
+- Enhance the overall speed to match the demands of high-frequency trading operations.
 
-### Performance Analysis: Copy Trading Bot Response Time Evaluation
-Our copy trading bot has undergone comprehensive performance testing using both standard RPC and gRPC protocols. Based on our benchmarking results, we found that while our bot performs adequately, its response times are notably slower compared to industry-standard trading systems that utilize optimized RPC and gRPC services.
-For professional trading operations that require ultra-low latency, we recommend implementing performance enhancements to match the speed of high-performance trading infrastructure. Specifically, our tests indicate that a well-optimized RPC/gRPC implementation could significantly reduce latency and improve execution times for copy trading operations.
-Key observations:
+### 🔥 Benefits for Traders
 
-1. Current response times are higher than desired for real-time trading
-2. There's measurable performance gap compared to optimized RPC/gRPC services
-3. Potential for significant speed improvements through optimization
+- **Best Liquidity Access:** Gain access to Solana's deepest liquidity pools for maximum trading efficiency.
+- **Arbitrage Opportunities:** Capitalize on arbitrage opportunities across multiple DEXs.
+- **Smart Order Routing:** Reduce slippage and optimize trade execution across various exchanges.
+- **Optimized Price Execution:** Automatic price optimization ensures you're getting the best deals on your trades.
 
-## Examples
+### ⚡ Real-Time Example:
 
+Here’s an example of how the bot tracks and mirrors a target trader’s actions:
 
-https://github.com/user-attachments/assets/51d7ea58-b59e-4358-8016-fa3f3e256ec2
+   **Target Wallet:**  
+   [View Transaction](https://solscan.io/tx/gEGTHyF1JH2GUYpML79m6rnzYpE3y2CJ3r4U2STa8himW53rzdCCAVkTdkLW9w7x3YE5pLw4vYa9qqWaLzKGrfp)  
+   **Trader Wallet:**  
+   [View Transaction](https://solscan.io/tx/i8UKtsMbkfdz481MSD68Kawj3o8AkTyHLkjiJsgGfCZAtebUBnUCZ18TYkzCZxJLAkkrteU98sHxhiq3kwtL9rc)
 
+### ⚡ Quick Start
 
-target wallet: 
-`https://solscan.io/tx/gEGTHyF1JH2GUYpML79m6rnzYpE3y2CJ3r4U2STa8himW53rzdCCAVkTdkLW9w7x3YE5pLw4vYa9qqWaLzKGrfp`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/0xSabonis/copy-trading-bot.git
 
-bot wallet: 
-`https://solscan.io/tx/i8UKtsMbkfdz481MSD68Kawj3o8AkTyHLkjiJsgGfCZAtebUBnUCZ18TYkzCZxJLAkkrteU98sHxhiq3kwtL9rc`
+2. Install Dependency:
+   ```bash
+   npm install
 
-target wallet: 
-`https://solscan.io/tx/4bK6m2zvpGZ9fvu48HySxezMPsSqYHBqaatMajEjWA1CxQ7CrAKAszHVALC93qhr7VP2n6Ujsi1c4JLjmhxrjDZM`
+3. Set up Wallet Credential and start bot:
+   ```bash
+   npm start
 
-bot wallet: 
-`https://solscan.io/tx/5MEM9YmL8BGboq2eEdNLqnhbMKwWQ8cZKF6zcRonBuL42bkZi8RHBmftdk61APMZecN3T9MAJoFZVjaDM9AWcvCp`
+4. Follow and copy trades of any wallet on Solana. The bot does the rest!
 
-# 👤 Author
-### Telegram: [Vladmeer](https://t.me/dogewhiz)   
-https://t.me/dogewhiz
+### 📊 Monitor Your Performance
+
+The bot comes with a Performance Dashboard to track your trades, profits, and overall bot performance. Keep an eye on how well your chosen traders are performing and adjust your strategy accordingly.
+
+### 💬 Get in Touch
+Have any questions or feedback? Join our community and stay up to date on future developments!
+
+- Telegram: Rizz Muffin
+- GitHub: https://github.com/yourusername
+
+### 👤 Author
+- Name: Rizz Muffin
+- Telegram: @dogewhiz
