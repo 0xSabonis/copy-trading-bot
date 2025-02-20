@@ -68,9 +68,6 @@ The bot comes with a Performance Dashboard to track your trades, profits, and ov
 ### 💬 Get in Touch
 Have any questions or feedback? Join our community and stay up to date on future developments!
 
-- Telegram: Rizz Muffin
-- GitHub: https://github.com/yourusername
+- Telegram: Rizz Muffin[https://t.me/dogewhiz]
+- GitHub: https://github.com/0xSabonis
 
-### 👤 Author
-- Name: Rizz Muffin
-- Telegram: @dogewhiz
