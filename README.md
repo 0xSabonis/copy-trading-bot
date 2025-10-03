@@ -68,5 +68,5 @@ The bot comes with a Performance Dashboard to track your trades, profits, and ov
 ### 💬 Get in Touch
 Have any questions or feedback? Join our community and stay up to date on future developments!
 
-- Telegram: [dogewhiz](https://t.me/sabonis_24)
+- Telegram: [Sabonis](https://t.me/sabonis_24)
 
